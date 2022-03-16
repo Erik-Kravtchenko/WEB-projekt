@@ -1,0 +1,204 @@
+body {
+      
+ 
+background-image: url("Bilder/test fürn test 2.png"), url("Bilder/hintergrund website_repeat2.png");
+	
+	
+
+	
+	
+	
+
+	
+	background-repeat:no-repeat , repeat;
+	
+	
+
+	
+}
+
+
+
+#kopf img {
+	
+	
+	width: 70%;
+	
+}
+
+
+
+
+#Gesamt{
+	
+	
+	
+	
+	max-width: 800px;
+	margin:auto;
+
+	
+	overflow:hidden;
+	
+	padding:10px;
+	
+	
+}
+
+
+#inhalt {
+	
+	border:solid;
+	border-color:black;
+
+width:800px;
+	height:400px;
+	
+
+	
+	
+
+	overflow-y:auto;
+	
+}
+
+
+#inhalt1{
+	
+	height:300px;	
+	border:solid;
+	border-color:black;
+	margin:10px;
+	padding:2px;
+	
+
+	
+}
+
+#inhalt2{
+	
+		height:300px;	
+	border:solid;
+	border-color:black;
+	margin:10px;
+	padding:2px;
+	
+}
+
+#inhalt3{
+	
+		height:300px;	
+	border:solid;
+	border-color:black;
+	margin:10px;
+	padding:2px;
+	
+}
+
+
+#bild1{
+	
+	
+	max-height:300px;
+	max-width:400px;
+	float:left;
+}
+
+
+
+
+
+#kopf {
+	
+	text-align:center;
+	
+	
+}
+
+
+img {
+	
+	width: 300px;
+	
+	height:300px;
+	
+}
+
+
+#fußzeile {
+	
+	
+		
+	text-color:red;
+	
+	max-height: 200px;
+	
+
+	
+	border:solid;
+
+
+	
+		padding:10px;
+
+	
+	float: right;
+
+	text-align:center;
+	
+	display:block;
+	
+	width:770px;
+	height: 400px;
+	size:50%;
+	
+
+	
+	
+		
+	
+	background:url("Bilder/rollover 1-version2.png") no-repeat;
+}
+
+
+#fußzeile:hover{
+	
+	transition-duration:0.4s;
+	
+	
+	background:url("Bilder/rollover 2-version2.png") no-repeat;
+	
+	}
+
+
+
+#text1{
+	
+	
+	
+	padding:10px;
+	margin-right:200px;
+	float:right;
+	
+	max-width:50%;
+}
+
+
+::-webkit-scrollbar {
+width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+
+::-webkit-scrollbar-thumb {
+background: #888;
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+background: #555;
+}
