@@ -1,0 +1,281 @@
+/* Jedes bild und Hintergrund sind selber ausgeschnitten/erstellt*/
+
+body {
+      
+ 
+background-image: url("Bilder/test fürn test.png"), url("Bilder/hintergrund website_repeat2.png");
+	
+	
+
+	
+	
+	
+
+	
+	background-repeat:no-repeat , repeat;
+	
+}
+
+
+/*positionierung der hintergrund assets*/
+
+#hintergrund2{
+	
+	
+	
+	position: absolute;
+	
+	top:240px;
+  right:-1000px;
+
+	z-index: -9999;
+	
+	
+	margin:auto;
+
+
+	
+	float:left;
+	
+	
+	padding:0px;
+
+}
+
+
+
+
+#hintergrund{
+	
+	position: absolute;
+	
+	top:620px;
+	left:0;
+	z-index: -9999;
+	
+	
+	margin:auto;
+
+
+	
+	float:left;
+	
+	padding:0px;
+margin:0px;
+	
+}
+
+
+
+#Gesamt{
+	
+	
+	max-width: 800px;
+	margin:auto;
+
+	
+	overflow:hidden;
+	
+	padding:10px;
+	
+	border:solid;
+}
+
+
+
+/*positionierung des Titels*/
+
+#Kopf {
+	
+text-align:center;
+	
+	
+
+	
+	
+	
+
+	
+}
+
+
+
+
+#inhalt{
+	
+	border:solid;
+	
+		padding:10px;
+
+	background-image:url("Bilder/farbverlauf.png");
+	
+		background-size:cover;
+	
+}
+
+
+
+#bild{
+	
+		padding:10px;
+
+
+	
+	
+ 
+width:400px;
+	
+	text-align:right;
+	
+	
+
+	
+	
+}
+
+#textinhalt{
+	
+	color:white;
+	
+	
+	Width:300px;
+	
+
+	
+	
+		padding:10px;
+
+	
+	float:right;
+	
+	
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+#fußzeile {
+	
+	
+		
+	text-color:red;
+	
+	max-height: 200px;
+	
+
+	
+	border:solid;
+
+
+	
+		padding:10px;
+
+	
+	float: right;
+
+	text-align:center;
+	
+	display:block;
+	
+	width:770px;
+	height: 400px;
+	size:50%;
+	
+
+	
+	
+		
+	
+	background:url("Bilder/rollover 1-version2.png") no-repeat;
+	
+	 
+	
+}
+
+
+/* Bild mit hover feature, welches einblended und als hyperlink funktioniert*/
+
+a.link {
+	
+	display:block;
+	height:100%;
+	width:100%;
+	text-decoration:none;
+	
+}
+
+
+/* hover und on-click für die Fußzeile + bild */
+
+
+#fußzeile:hover{
+	
+	transition-duration:0.4s;
+	
+	
+	background:url("Bilder/rollover 2-version2.png") no-repeat;
+	
+	
+}
+
+
+
+/* Format vereinfacht fürs drucken */
+
+
+
+@media print {
+	
+
+	#bild{
+		
+		
+	display:none;
+		
+	
+		
+	}
+	
+	
+	#fußzeile {
+		
+	Display:none;	
+		
+	}
+	
+	#hintergrund {
+		
+		display:none;
+		
+	}
+	
+	
+	#hintergrund2 {
+		
+		display:none;
+		
+		}
+
+
+	#textinhalt {
+		
+	color:black;	
+		
+	}
+	
+	#inhalt {
+		
+	border:none;	
+		
+		
+	}
+
+}
